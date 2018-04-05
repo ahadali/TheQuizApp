@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">The Quiz App</string>
+
+    <!-- CountDown Timer for displaying the time limit for the quiz -->
+    <string name="time">02:00</string>
+
+    <!-- Question Set for First Section -->
+    <string name="First_Section_Q1"><b>Question 1 :</b> By default a real number is treated as a</string>
+    <string name="First_Section_Q2"><b>Question 2 :</b>  Is the following statement a declaration or definition?
+        <b><i>\n\nextern int i;</i></b></string>
+    <string name="First_Section_Q3"><b>Question 3 :</b>  C was founded by : </string>
+    <string name="First_Section_Q4"><b>Question 4 :</b>  Consider the following variable declarations and definitions in C
+       <i>\ni) int var_9 = 1;</i>
+   <i>\nii) int var = 2;</i>
+   <i>\niii) int 8 = 3;</i></string>
+
+    <!-- Question Set for Second Section -->
+    <string name="Second_Section_Q1"><b>Question 1 :</b> Which of the following is not OOPS concept in Java?</string>
+    <string name="Second_Section_Q2"><b>Question 2 :</b> When does method overloading is determined?</string>
+    <string name="Second_Section_Q3"><b>Question 3 :</b> The output of the Java compiler is known as : </string>
+    <string name="Second_Section_Q4"><b>Question 4 :</b> Which of these keywords is a part of exception handling?</string>
+
+    <!-- Question Set for Third Section -->
+    <string name="Third_Section_Q1"><b>Question 1 : </b> <i>\n\n>>>names = "['Amir', 'Bear', 'Charlton', 'Daman']" \n>>>print(names[-1][-1])</i></string>
+    <string name="Third_Section_Q2"><b>Question 2 :</b> Which of these in not a core datatype?</string>
+    <string name="Third_Section_Q3"><b>Question 3 :</b> What is the output of the following? \n\n<i>a = 4.5
+        \nb = 2
+        \n<b>print</b> a//b</i></string>
+    <string name="Third_Section_Q4"><b>Question 4 :</b> Which of the following is not a keyword?</string>
+
+</resources>

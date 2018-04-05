@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.thequizapp.SecondSectionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <!-- Button for starting or submitting the quiz -->
+            <Button
+                android:id="@+id/button_start_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start"
+                android:textSize="20sp" />
+
+            <!-- TextView for displaying the timer -->
+            <TextView
+                android:id="@+id/text_view_countdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/time"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <!-- Question 1  -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="@string/Second_Section_Q1"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Inheritance" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Polymorphism" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Encapsulation" />
+
+            <RadioButton
+                android:id="@+id/correct_Answer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:text="Compilation" />
+        </RadioGroup>
+
+
+        <!-- Question 2  -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:text="@string/Second_Section_Q2"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="At run time" />
+
+            <RadioButton
+                android:id="@+id/correct_Answer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="At compile time" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="At coding time" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:text="At execution time" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+
+            <!-- Question 3  -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Second_Section_Q3"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/correct_Answer3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Your Answer" />
+        </LinearLayout>
+
+
+        <!-- Question 4  -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/Second_Section_Q4"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/first_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="try" />
+
+        <CheckBox
+            android:id="@+id/second_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="thrown" />
+
+        <CheckBox
+            android:id="@+id/third_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="catch" />
+
+        <CheckBox
+            android:id="@+id/fourth_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:text="final" />
+
+    </LinearLayout>
+
+</ScrollView>

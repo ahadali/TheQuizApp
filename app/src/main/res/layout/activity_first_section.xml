@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.thequizapp.FirstSectionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <!-- Button for starting or submitting the quiz -->
+            <Button
+                android:id="@+id/button_start_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start"
+                android:textSize="20sp" />
+
+            <!-- TextView for displaying timer -->
+            <TextView
+                android:id="@+id/text_view_countdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/time"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <!-- Questions 1 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="@string/First_Section_Q1"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="float" />
+
+            <RadioButton
+                android:id="@+id/correct_Answer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="double" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="long double" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:text="far double" />
+        </RadioGroup>
+
+        <!-- Questions 2  -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:text="@string/First_Section_Q2"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/correct_Answer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Declaration" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Definition" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Function" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:text="Error" />
+        </RadioGroup>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Questions 3  -->
+            <TextView
+                android:id="@+id/question_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/First_Section_Q3"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/correct_Answer3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/question_3"
+                android:layout_marginTop="5dp"
+                android:hint="Your Answer" />
+        </RelativeLayout>
+
+        <!-- Questions 4  -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/First_Section_Q4"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/first_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option (i) is correct." />
+
+        <CheckBox
+            android:id="@+id/second_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option (ii) is correct." />
+
+        <CheckBox
+            android:id="@+id/third_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:text="Option (iii) is correct." />
+    </LinearLayout>
+
+</ScrollView>

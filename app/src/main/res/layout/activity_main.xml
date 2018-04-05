@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_img"
+    android:theme="@style/WhiteText"
+    tools:context="com.example.android.thequizapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:text="Select Your Choice: "
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/First_Section_Button"
+            android:layout_width="150dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:background="#E64A19"
+            android:text="C"
+            android:textAllCaps="true"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/Second_Section_Button"
+            android:layout_width="150dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:background="#03A9F4"
+            android:text="Java"
+            android:textAllCaps="true"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/Third_Section_Button"
+            android:layout_width="150dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:background="#9C27B0"
+            android:text="Python"
+            android:textAllCaps="true"
+            android:textSize="22sp" />
+
+
+    </LinearLayout>
+</ScrollView>
