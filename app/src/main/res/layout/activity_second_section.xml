@@ -23,7 +23,7 @@
                 android:id="@+id/button_start_submit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/start_button"
+                android:text="Start"
                 android:textSize="20sp" />
 
             <!-- TextView for displaying the timer -->
@@ -52,24 +52,24 @@
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/answer1_inheritance" />
+                android:text="Inheritance" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/answer1_polymorphism" />
+                android:text="Polymorphism" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/answer1_encapsulation" />
+                android:text="Encapsulation" />
 
             <RadioButton
                 android:id="@+id/correct_Answer1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="25dp"
-                android:text="@string/answer1_compilation" />
+                android:text="Compilation" />
         </RadioGroup>
 
 
@@ -89,24 +89,24 @@
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/answer2_at_run_time" />
+                android:text="At run time" />
 
             <RadioButton
                 android:id="@+id/correct_Answer2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/answer2_at_compile_time" />
+                android:text="At compile time" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/answer2_at_coding_time" />
+                android:text="At coding time" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="25dp"
-                android:text="@string/answer2_at_execution_time" />
+                android:text="At execution time" />
         </RadioGroup>
 
         <LinearLayout
@@ -128,7 +128,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:hint="@string/answer3_editText" />
+                android:hint="Your Answer" />
         </LinearLayout>
 
 
@@ -145,26 +145,26 @@
             android:id="@+id/first_checkbox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/answer4_try" />
+            android:text="try" />
 
         <CheckBox
             android:id="@+id/second_checkbox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/answer4_thrown" />
+            android:text="thrown" />
 
         <CheckBox
             android:id="@+id/third_checkbox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/answer4_catch" />
+            android:text="catch" />
 
         <CheckBox
             android:id="@+id/fourth_checkbox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="40dp"
-            android:text="@string/answer4_final" />
+            android:text="final" />
 
     </LinearLayout>
 

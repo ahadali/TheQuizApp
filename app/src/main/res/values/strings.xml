@@ -4,16 +4,6 @@
     <!-- CountDown Timer for displaying the time limit for the quiz -->
     <string name="time">02:00</string>
 
-    <!-- Start and Submit Button -->
-    <string name="start_button">Start</string>
-    <string name="submit_button">submit</string>
-
-    <!-- Main Activity Strings -->
-    <string name="select_your_choice">Select Your Choice:</string>
-    <string name="c_section">C</string>
-    <string name="java_section">Java</string>
-    <string name="python_section">Python</string>
-
     <!-- Question Set for First Section -->
     <string name="First_Section_Q1"><b>Question 1 :</b> By default a real number is treated as a</string>
     <string name="First_Section_Q2"><b>Question 2 :</b>  Is the following statement a declaration or definition?
@@ -37,47 +27,5 @@
         \nb = 2
         \n<b>print</b> a//b</i></string>
     <string name="Third_Section_Q4"><b>Question 4 :</b> Which of the following is not a keyword?</string>
-
-    <!-- Options set for first_section.xml -->
-    <string name="answer_float">float</string>
-    <string name="answer_double">double</string>
-    <string name="answer_long_double">long double</string>
-    <string name="answer_far_double">far double</string>
-    <string name="answer2_declaration">Declaration</string>
-    <string name="answer2_definition">Definition</string>
-    <string name="answer2_function">Function</string>
-    <string name="answer2_error">Error</string>
-    <string name="answer3_editText">Your Answer</string>
-    <string name="answer4_firstCheckbox">Option (i) is correct.</string>
-    <string name="answer4_secondCheckbox">Option (ii) is correct.</string>
-    <string name="answer4_thirdCheckbox">Option (iii) is correct.</string>
-
-    <!-- Options set for second_section.xml -->
-    <string name="answer1_inheritance">Inheritance</string>
-    <string name="answer1_polymorphism">Polymorphism</string>
-    <string name="answer1_encapsulation">Encapsulation</string>
-    <string name="answer1_compilation">Compilation</string>
-    <string name="answer2_at_run_time">At run time</string>
-    <string name="answer2_at_compile_time">At compile time</string>
-    <string name="answer2_at_coding_time">At coding time</string>
-    <string name="answer2_at_execution_time">At execution time</string>
-    <string name="answer4_try">try</string>
-    <string name="answer4_thrown">thrown</string>
-    <string name="answer4_catch">catch</string>
-    <string name="answer4_final">final</string>
-
-    <!-- Options set for third_section.xml -->
-    <string name="answer1_a">A</string>
-    <string name="answer1_daman">Daman</string>
-    <string name="answer1_error">Error</string>
-    <string name="answer1_n">n</string>
-    <string name="answer2_lists">Lists</string>
-    <string name="answer2_dictionary">Dictionary</string>
-    <string name="answer2_tuples">Tuples</string>
-    <string name="answer2_class">Class</string>
-    <string name="answer4_var">var</string>
-    <string name="answer4_eval">eval</string>
-    <string name="answer4_assert">assert</string>
-    <string name="answer4_pass">pass</string>
 
 </resources>

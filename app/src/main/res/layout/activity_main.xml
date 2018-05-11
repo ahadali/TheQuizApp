@@ -9,7 +9,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical">
 
         <TextView
@@ -18,7 +18,7 @@
             android:layout_gravity="center"
             android:layout_marginBottom="30dp"
             android:layout_marginTop="30dp"
-            android:text="@string/select_your_choice"
+            android:text="Select Your Choice: "
             android:textSize="20sp"
             android:textStyle="bold" />
 
@@ -29,7 +29,7 @@
             android:layout_gravity="center"
             android:layout_marginBottom="30dp"
             android:background="#E64A19"
-            android:text="@string/c_section"
+            android:text="C"
             android:textAllCaps="true"
             android:textSize="22sp" />
 
@@ -40,7 +40,7 @@
             android:layout_gravity="center"
             android:layout_marginBottom="30dp"
             android:background="#03A9F4"
-            android:text="@string/java_section"
+            android:text="Java"
             android:textAllCaps="true"
             android:textSize="22sp" />
 
@@ -51,7 +51,7 @@
             android:layout_gravity="center"
             android:layout_marginBottom="30dp"
             android:background="#9C27B0"
-            android:text="@string/python_section"
+            android:text="Python"
             android:textAllCaps="true"
             android:textSize="22sp" />
 

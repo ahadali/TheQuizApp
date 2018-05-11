@@ -25,6 +25,12 @@ public class FirstSectionActivity extends AppCompatActivity {
     private static final long START_TIME_IN_MILLIS = 120000;
     /* Total score */
     public final int totalScore = 4;
+    /* Correct Answer 1 */
+    private final int Q1_ANSWER = R.id.correct_Answer1;
+    /* Correct Answer 2 */
+    private final int Q2_ANSWER = R.id.correct_Answer2;
+    /* Correct Answer 3 */
+    private final String Q3_ANSWER = "Dennis Ritchie";
     /* TextView for Countdown */
     private TextView mTextViewCountDown;
     /* Start and Submit Button */
@@ -114,7 +120,7 @@ public class FirstSectionActivity extends AppCompatActivity {
         }.start();
 
         mTimerRunning = true;
-        mButtonStartOrSubmit.setText(R.string.submit_button);
+        mButtonStartOrSubmit.setText("submit");
     }
 
 
@@ -204,37 +210,43 @@ public class FirstSectionActivity extends AppCompatActivity {
 
     /* Following methods of type boolean are created for checking the correct Answer */
     private boolean checkQuestion1() {
-        RadioGroup rg1 = findViewById(R.id.radio_group_one);
+        RadioGroup rg1 = (RadioGroup) findViewById(R.id.radio_group_one);
 
-        int q1_ANSWER = R.id.correct_Answer1;
-        return rg1.getCheckedRadioButtonId() == q1_ANSWER;
+        if (rg1.getCheckedRadioButtonId() == Q1_ANSWER) {
+            return true;
+        }
 
+        return false;
     }
 
     private boolean checkQuestion2() {
-        RadioGroup rg2 = findViewById(R.id.radio_group_two);
+        RadioGroup rg2 = (RadioGroup) findViewById(R.id.radio_group_two);
 
-        int q2_ANSWER = R.id.correct_Answer2;
-        return rg2.getCheckedRadioButtonId() == q2_ANSWER;
+        if (rg2.getCheckedRadioButtonId() == Q2_ANSWER) {
+            return true;
+        }
 
+        return false;
     }
 
 
     private boolean checkQuestion3() {
-        EditText e3 = findViewById(R.id.correct_Answer3);
+        EditText e3 = (EditText) findViewById(R.id.correct_Answer3);
 
-        String q3_ANSWER = "Dennis Ritchie";
-        return e3.getText().toString().equalsIgnoreCase(q3_ANSWER);
+        return e3.getText().toString().equalsIgnoreCase(Q3_ANSWER);
     }
 
 
     private boolean checkQuestion4() {
-        CheckBox c1 = findViewById(R.id.first_checkbox);
-        CheckBox c2 = findViewById(R.id.second_checkbox);
-        CheckBox c3 = findViewById(R.id.third_checkbox);
+        CheckBox c1 = (CheckBox) findViewById(R.id.first_checkbox);
+        CheckBox c2 = (CheckBox) findViewById(R.id.second_checkbox);
+        CheckBox c3 = (CheckBox) findViewById(R.id.third_checkbox);
 
-        return c1.isChecked() && c2.isChecked() && !c3.isChecked();
+        if (c1.isChecked() && c2.isChecked() && !c3.isChecked()) {
+            return true;
+        }
 
+        return false;
     }
 
 }
