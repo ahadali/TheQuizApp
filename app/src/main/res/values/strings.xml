@@ -4,6 +4,16 @@
     <!-- CountDown Timer for displaying the time limit for the quiz -->
     <string name="time">02:00</string>
 
+    <!-- Submit and Start buttons -->
+    <string name="submit_button">submit</string>
+    <string name="start_button">Start</string>
+
+    <!-- Main Activity Strings -->
+    <string name="select_your_choice">Select Your Choice:</string>
+    <string name="first_section_button">C</string>
+    <string name="second_section_button">Java</string>
+    <string name="third_section_button">Python</string>
+
     <!-- Question Set for First Section -->
     <string name="First_Section_Q1"><b>Question 1 :</b> By default a real number is treated as a</string>
     <string name="First_Section_Q2"><b>Question 2 :</b>  Is the following statement a declaration or definition?
@@ -27,5 +37,49 @@
         \nb = 2
         \n<b>print</b> a//b</i></string>
     <string name="Third_Section_Q4"><b>Question 4 :</b> Which of the following is not a keyword?</string>
+
+    <!-- EditText hint = "Your Answer" -->
+    <string name="editText_hint">Your Answer</string>
+
+    <!-- Options Set for First Section -->
+    <string name="option_float">float</string>
+    <string name="option_double">double</string>
+    <string name="option_long_double">long double</string>
+    <string name="option_far_double">far double</string>
+    <string name="option_declaration">Declaration</string>
+    <string name="option_definition">Definition</string>
+    <string name="option_function">Function</string>
+    <string name="option_error">Error</string>
+    <string name="option_one">Option (i) is correct.</string>
+    <string name="option_two">Option (ii) is correct.</string>
+    <string name="option_three">Option (iii) is correct.</string>
+
+    <!-- Options Set for Second Section -->
+    <string name="option_inheritance">Inheritance</string>
+    <string name="option_polymorphism">Polymorphism</string>
+    <string name="option_encapsulation">Encapsulation</string>
+    <string name="option_compilation">Compilation</string>
+    <string name="option_at_run_time">At run time</string>
+    <string name="option_at_compile_time">At compile time</string>
+    <string name="option_at_coding_time">At coding time</string>
+    <string name="option_at_execution_time">At execution time</string>
+    <string name="option_try">try</string>
+    <string name="option_thrown">thrown</string>
+    <string name="option_catch">catch</string>
+    <string name="option_final">final</string>
+
+    <!-- Options Set for Third Section -->
+    <string name="option_a">A</string>
+    <string name="option_daman">Daman</string>
+    <string name="thirdSection_option_error">Error</string>
+    <string name="option_n">n</string>
+    <string name="option_lists">Lists</string>
+    <string name="option_dictionary">Dictionary</string>
+    <string name="option_tuples">Tuples</string>
+    <string name="option_class">Class</string>
+    <string name="option_var">var</string>
+    <string name="option_eval">eval</string>
+    <string name="option_assert">assert</string>
+    <string name="option_pass">pass</string>
 
 </resources>
