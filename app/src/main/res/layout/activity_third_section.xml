@@ -7,9 +7,9 @@
     tools:context="com.example.android.thequizapp.ThirdSectionActivity">
 
     <LinearLayout
-        android:layout_margin="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="20dp"
         android:orientation="vertical">
 
         <LinearLayout
@@ -24,7 +24,7 @@
                 android:id="@+id/button_start_submit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Start"
+                android:text="@string/start_button"
                 android:textSize="20sp" />
 
 
@@ -34,10 +34,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:text="@string/time"
                 android:textSize="20sp" />
         </LinearLayout>
-
 
 
         <!-- Question 1  -->
@@ -56,24 +56,24 @@
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="A" />
+                android:text="@string/option_a" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Daman" />
+                android:text="@string/option_daman" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Error" />
+                android:text="@string/thirdSection_option_error" />
 
             <RadioButton
                 android:id="@+id/correct_Answer1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="25dp"
-                android:text="n" />
+                android:text="@string/option_n" />
         </RadioGroup>
 
 
@@ -93,24 +93,24 @@
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Lists" />
+                android:text="@string/option_lists" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Dictionary" />
+                android:text="@string/option_dictionary" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Tuples" />
+                android:text="@string/option_tuples" />
 
             <RadioButton
                 android:id="@+id/correct_Answer2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="25dp"
-                android:text="Class" />
+                android:text="@string/option_class" />
         </RadioGroup>
 
         <RelativeLayout
@@ -130,9 +130,9 @@
                 android:id="@+id/correct_Answer3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
                 android:layout_below="@id/question_3"
-                android:hint="Your Answer" />
+                android:layout_marginTop="10dp"
+                android:hint="@string/editText_hint" />
         </RelativeLayout>
 
 
@@ -149,26 +149,26 @@
             android:id="@+id/first_checkbox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="var" />
+            android:text="@string/option_var" />
 
         <CheckBox
             android:id="@+id/second_checkbox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="eval" />
+            android:text="@string/option_eval" />
 
         <CheckBox
             android:id="@+id/third_checkbox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="assert" />
+            android:text="@string/option_assert" />
 
         <CheckBox
             android:id="@+id/fourth_checkbox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="40dp"
-            android:text="pass" />
+            android:text="@string/option_pass" />
     </LinearLayout>
 
 
