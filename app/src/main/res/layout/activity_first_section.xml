@@ -23,7 +23,7 @@
                 android:id="@+id/button_start_submit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Start"
+                android:text="@string/start_button"
                 android:textSize="20sp" />
 
             <!-- TextView for displaying timer -->
@@ -32,6 +32,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:text="@string/time"
                 android:textSize="20sp" />
         </LinearLayout>
@@ -52,24 +53,24 @@
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="float" />
+                android:text="@string/option_float" />
 
             <RadioButton
                 android:id="@+id/correct_Answer1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="double" />
+                android:text="@string/option_double" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="long double" />
+                android:text="@string/option_long_double" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="25dp"
-                android:text="far double" />
+                android:text="@string/option_far_double" />
         </RadioGroup>
 
         <!-- Questions 2  -->
@@ -89,23 +90,23 @@
                 android:id="@+id/correct_Answer2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Declaration" />
+                android:text="@string/option_declaration" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Definition" />
+                android:text="@string/option_definition" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Function" />
+                android:text="@string/option_function" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="25dp"
-                android:text="Error" />
+                android:text="@string/option_error" />
         </RadioGroup>
 
         <RelativeLayout
@@ -126,7 +127,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/question_3"
                 android:layout_marginTop="5dp"
-                android:hint="Your Answer" />
+                android:hint="@string/editText_hint" />
         </RelativeLayout>
 
         <!-- Questions 4  -->
@@ -142,20 +143,20 @@
             android:id="@+id/first_checkbox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Option (i) is correct." />
+            android:text="@string/option_one" />
 
         <CheckBox
             android:id="@+id/second_checkbox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Option (ii) is correct." />
+            android:text="@string/option_two" />
 
         <CheckBox
             android:id="@+id/third_checkbox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="40dp"
-            android:text="Option (iii) is correct." />
+            android:text="@string/option_three" />
     </LinearLayout>
 
 </ScrollView>
