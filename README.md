@@ -1,3 +1,5 @@
+![92px](https://user-images.githubusercontent.com/38810169/40013797-6b981c46-57d0-11e8-9a89-e943f404832e.png)
+
 # TheQuizApp for Udacity
 * This app is created under Udacity's Google India Challenge Scholarship Program for Android Basic Course.
 * https://in.udacity.com
